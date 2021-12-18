@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #e5e7e2;
+}
+    
+.header {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2d3031;
+    color: #2d3031;
+}  
+
+/* Header display setting and font-size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: turquoise;
+}
+
+
+/* header div sizing and styles */
+.header div {
+    padding-top: 8px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+/* Header unordered list style */
+.header div ul {
+    list-style-type: none;
+    margin-right: 130px;
+    font-size: 25px;
+}
+
+/* Navbar links text color */
+a {
+    color: turquoise;
+    text-decoration: underline;
+    text-decoration: solid underline turquoise 5px;
+    text-underline-offset: 0.2em;
+}
+
+/* Header unordered list items positioning */
+.header div ul li {
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+/* Hero div sizing */
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/bee-image-01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* * Class float-left positioning */ */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Class float-right positioning */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Cool subtitle */
+.hero h2 {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 240px;
+    margin-left: 1500px;
+    color: black;
+    background-color: turquoise;
+}
+
+/* Class content sizing and styles */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* SEO segment sizing & styles */
+.about{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 100x;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e5e7e2;
+    color: #102b85;
+}
+
+.about h3 {
+    width: 10%;
+    margin: 20px;
+    padding: 15px;
+    height: 100px;
+}
+}
+
+/* .about p {
+    display: inline-block;
+    background-color: lightgrey;
+    border: 15px solid green;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+} */
+
+/* .content about me {
+    display: flex;
+
+} */
+
+.About Me {
+
+}
