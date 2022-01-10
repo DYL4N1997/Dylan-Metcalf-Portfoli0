@@ -312,13 +312,16 @@ a {
     .header  {
       width: 20%;
     }
+}
 
 @media (max-width: 740px) {
     .aboutme  {
         width: 30%;
     }
+}
 
 @media (max-width: 740px) {
     .mywork  {
         width: 30%;
-    }
+    } 
+} 
