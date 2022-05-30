@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
     <title>Dylan Metcalf Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <!-- Navigation -->
 <div class="container navbar items-center mx-auto px-4">
-<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
   <div class="container flex flex-wrap justify-center content-center items-center mx-auto">
     <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
@@ -38,7 +38,7 @@
         <li><a href="https://github.com/DYL4N1997" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" target="_blank">
           <ion-icon name="logo-github" class="small-icon"></ion-icon>
         </a></li>
-      <li><a href="https://www.linkedin.com/in/dylan-metcalf/" class= "block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" target="_blank">
+      <li><a href="https://www.linkedin.com/in/dylan-metcalf-7595781b3/" class= "block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" target="_blank">
           <ion-icon name="logo-linkedin" class="small-icon"></ion-icon>
           </ion-icon>
         </a></li>
@@ -48,57 +48,43 @@
 </nav>
 </div>
 
-<!-- About Me -->
-<div class="container items-center mx-auto px-4">
-  <div class="container about-me flex flex-wrap justify-center content-center items-center mx-auto">
-    <a class="block py-2 pr-4 pl-3 text-gray-700 md:text-xl md:font-medium">About Me</a>
+<!-- Profile pic -->
+<header class="header" id="header">
+<div class="header__text-box">
+  <h1 class="heading-primary">
+    <span class="heading-primary--main">Dylan Metcalf</span>
+    <span class="heading-primary--sub">Web Developer</span>
+  </h1>
+  <a href="#projects" class="btn btn--full head-btn">My Work<ion-icon  name="arrow-forward-outline"></ion-icon></a>
+</div>
+</header>
+<section class="section-about" id="about">
+<div class="u-center-text u-margin-bottom-big">
+  <h2 class="heading-secondary">About</h2>
+</div>
+<div class="row">
+  <div class="col-1-of-2 justify-center">
+    <div class="myimage">
+      <img src="/Portfolio/images/profile-picture.png" alt="Profile-photo">
+    </div>
 
   </div>
-
-
+  <div class="col-1-of-2 intro">
+    <h3 class="heading-tertiary" style="color:#a8890d;">A Byte About Me </h3>
+    <p class="myinfo">  I am a junior support technician that is fascinated with the world of IT. From reading books on HTML? To Working on projects in my free time.
+      I am able to adapt to and overcome the huge range of challenges that come with working in IT and excel in high-pressure situations. I am able to tackle situations? Individually but i also excel as part of a team.
+      I am currently enrolled in a web development course which Will give me a great understanding into the fundamentals of web development.. 
+    </p>
+    <hr>
+  </div>
+</div>
+</section>
 
 </div>
 
-
-
-
-
-
-
-<!-- <header class="header" id="header">
-  <nav class="header--main">
-    <ul class="header--main-nav">
-      <li class="nav-opt"><a href="#header">Home</a></li>
-      <li class="nav-opt"><a href="#about">About</a></li>
-      <li class="nav-opt"><a href="#projects">Projects</a></li>
-      <li class="nav-opt"><a href="#blog">Blog</a></li>
-      <li class="nav-opt"><a href="#contact">Contact</a></li>
-    </ul>
-    <ul class="header--main-social">
-      <li><a href="https://github.com/DYL4N1997" class="git" target="_blank">
-          <ion-icon name="logo-github" class="small-icon"></ion-icon>
-        </a></li>
-      <li><a href="https://www.linkedin.com/in/dylan-metcalf/" target="_blank">
-          <ion-icon name="logo-linkedin" class="small-icon"></ion-icon>
-          </ion-icon>
-        </a></li>
-    </ul>
-    <a>
-      <ion-icon name="reorder-three-outline" class="toggle-btn"></ion-icon>
-    </a>
-  </nav>
-  <div class="header__text-box">
-    <h1 class="heading-primary">
-      <span class="heading-primary--main">Dylan Metcalf</span>
-      <span class="heading-primary--sub">Developer</span>
-    </h1>
-    <a href="#projects" class="btn btn--full head-btn">MY WORK<ion-icon  name="arrow-forward-outline"></ion-icon></a>
-  </div>
-</header> -->
-
-
-
-
+<script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+<script src="/Portfolio/index.js"></script>
 
 </body>
 </html>
