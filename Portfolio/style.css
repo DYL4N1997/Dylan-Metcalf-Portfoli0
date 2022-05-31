@@ -298,15 +298,98 @@ body {
   .row .col-1-of-2 {
     width: calc((80% - 4rem)/2); }
   .row .col-1-of-3 {
-    width: calc((80% - 2* 6rem)/3); }
+    width: calc((100% - 2* 6rem)/3); }
   .row .col-2-of-3 {
     width: calc(2 * ((80% - 2* 6rem)/3) + 6rem); }
   .row .col-1-of-4 {
-    width: calc((80% - 3* 6rem)/4); }
+    width: calc((100% - 3* 6rem)/4); }
   .row .col-2-of-4 {
-    width: calc(2 * ((80% - 3* 6rem)/4) + 6rem); }
+    width: calc(2 * ((100% - 3* 6rem)/4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc(3 * ((80% - 3* 6rem)/4) + 2 * 6rem); 
+    width: calc(3 * ((100% - 3* 6rem)/4) + 2 * 6rem); 
 }
 
 
+/* ============ About Section ================== */
+.sub-heading {
+    font-size: 2.5rem;
+  }
+  .sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+  }
+  .sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  /* ============ Project Section ================== */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-card {
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    border-radius: 30px;
+    background-color: rgb(189, 119, 189);
+    color: black;
+  }
+  /* .project-card.large {
+    width: 600px;
+  }
+  .project-card.larger {
+    width: 900px;
+  } */
+  .project-information {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding-top: 20px;
+  }
+  .project-information a {
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    background-color: var(--secondaryColor1);
+    color: #fff;
+    border-radius: 30px;
+  }
+  .project-information a:hover {
+    background-color: #293488;
+  }
+  
+    .project-links {
+  }
+  .subtext {
+    margin: 20px;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  .project-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  hr {
+    margin: 0 50px;
+  }
+  .project-link {
+    text-decoration: none;
+    color: var(--primaryColor1);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
+  .grow:hover {
+    transform: scale(1.1);
+  }
+  
