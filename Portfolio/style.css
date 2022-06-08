@@ -11,9 +11,8 @@ body {
 
 .navbar {
     justify-content: center;
-    padding-top: 100px;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
 }
 
 h3 {
@@ -232,17 +231,7 @@ body {
         width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((80% - 4rem)/2); }
-  .row .col-1-of-3 {
-    width: calc((100% - 2* 6rem)/3); }
-  .row .col-2-of-3 {
-    width: calc(2 * ((80% - 2* 6rem)/3) + 6rem); }
-  .row .col-1-of-4 {
-    width: calc((100% - 3* 6rem)/4); }
-  .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3* 6rem)/4) + 6rem); }
-  .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3* 6rem)/4) + 2 * 6rem); 
-}
+
 
 
 /* ============ About Section ================== */
@@ -393,5 +382,117 @@ textarea {
 
 
 
+      .footer--main-social {
+        list-style: none; }
+      
+      .footer--main-social li {
+        display: inline-block;
+        margin-right: 4rem;
+        margin-top: 3.8rem; }
+      
+      .footer--main-social li a:link,
+      .footer--main-social li a:visited {
+        text-decoration: none;
+        color: #5E5E5E;
+        margin-left: 1rem; }
+    
+    
+    footer {
+        background-color: #f7f7f7; }
+        footer--main-social {
+          list-style: none; }
+          footer--main-social li {
+            display: inline-block;
+            margin-left: 2rem;
+            margin-right: 2rem; }
+            footer--main-social li a:link,
+            footer--main-social li a:visited {
+              text-decoration: none;
+              color: #fff; }
+          @media (max-width: 56.25em) {
+            footer--main-social {
+              width: 100%;
+              margin-top: 2rem; } }
+        footer p {
+          margin-bottom: 2.5rem;
+          color: #5E5E5E;
+          width: 100%;
+          margin-top: 2.5rem; }
+    
+
+.footer--main-social {
+    list-style: none; }
+  
+  .footer--main-social li {
+    display: inline-block;
+    margin-right: 4rem;
+    margin-top: 3.8rem; }
+  
+  .footer--main-social li a:link,
+  .footer--main-social li a:visited {
+    text-decoration: none;
+    color: #5E5E5E;
+    margin-left: 1rem; }
+
+
+footer {
+    background-color: #f7f7f7; }
+    footer--main-social {
+      list-style: none; }
+      footer--main-social li {
+        display: inline-block;
+        margin-left: 2rem;
+        margin-right: 2rem; }
+        footer--main-social li a:link,
+        footer--main-social li a:visited {
+          text-decoration: none;
+          color: #fff; }
+      @media (max-width: 56.25em) {
+        footer--main-social {
+          width: 100%;
+          margin-top: 2rem; } }
+    footer p {
+      margin-bottom: 2.5rem;
+      color: #5E5E5E;
+      width: 100%;
+      margin-top: 2.5rem; }
+
+      .footer--main-social {
+        list-style: none; }
+      
+      .footer--main-social li {
+        display: inline-block;
+        margin-right: 4rem;
+        margin-top: 3.8rem; }
+      
+      .footer--main-social li a:link,
+      .footer--main-social li a:visited {
+        text-decoration: none;
+        color: #5E5E5E;
+        margin-left: 1rem; }
+    
+    
+    footer {
+        background-color: #f7f7f7; }
+        footer--main-social {
+          list-style: none; }
+          footer--main-social li {
+            display: inline-block;
+            margin-left: 2rem;
+            margin-right: 2rem; }
+            footer--main-social li a:link,
+            footer--main-social li a:visited {
+              text-decoration: none;
+              color: #fff; }
+          @media (max-width: 56.25em) {
+            footer--main-social {
+              width: 100%;
+              margin-top: 2rem; } }
+        footer p {
+          margin-bottom: 2.5rem;
+          color: #5E5E5E;
+          width: 100%;
+          margin-top: 2.5rem; }
+    
 
   
