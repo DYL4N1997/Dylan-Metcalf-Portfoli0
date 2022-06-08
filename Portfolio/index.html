@@ -24,16 +24,16 @@
     <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
       <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium">
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white no-underline hover:underline" aria-current="page">Home</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-blue-700 rounded no-underline hover:underline" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 no-underline hover:underline">About</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-blue-700 border-b border-gray-100 hover:bg-blue-50 md:hover:bg-transparent no-underline hover:underline">About</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 no-underline hover:underline">Projects</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-blue-700 border-b border-gray-100 hover:bg-blue-50 md:hover:bg-transparent no-underline hover:underline">Projects</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent no-underline hover:underline">Contact</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-blue-700 border-b border-gray-100 hover:bg-blue-50 md:hover:bg-transparent no-underline hover:underline">Contact</a>
         </li>
         <li><a href="https://github.com/DYL4N1997" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" target="_blank">
           <ion-icon name="logo-github" class="small-icon"></ion-icon>
@@ -60,17 +60,18 @@
 </header>
 <section class="section-about" id="about">
 <div class="u-center-text u-margin-bottom-big">
-  <h2 class="heading-secondary">About</h2>
+  <h2 class="heading-secondary">
+    <span class="heading-primary--main">About</span></h2>
 </div>
 <div class="row">
-  <div class="col-1-of-2 justify-center">
+  <div class="col-1-of-2 justify-center align-items-center">
     <div class="myimage">
       <img src="/Portfolio/images/profile-picture.png" alt="Profile-photo">
     </div>
 
   </div>
   <div class="col-1-of-2 intro">
-    <h3 class="heading-tertiary" style="color:#a8890d;">A Byte About Me </h3>
+    <h3 class="heading-tertiary">A Byte About Me </h3>
     <p class="myinfo">  I am a junior support technician that is fascinated with the world of IT. From reading books on HTML? To Working on projects in my free time.
       I am able to adapt to and overcome the huge range of challenges that come with working in IT and excel in high-pressure situations. I am able to tackle situations? Individually but i also excel as part of a team.
       I am currently enrolled in a web development course which Will give me a great understanding into the fundamentals of web development.. 
@@ -80,94 +81,9 @@
 </div>
 </section>
 
-    <!-- project section -->
-    <section class="sub-section-alt accent-section" id="projects">
-      <h2 class="sub-heading">Projects</h2>
-      <p style="margin-top: 1rem;">Here are some of the projects I have built!</p>
-      <div class="project-container">
-        <div class="project-card grow">
-            <!-- project image -->
-                <a
-            target="blank"
-            href="https://dyl4n1997.github.io/Weather-API-Implementation/"
-          >
-            <img
-              class="project-image"
-              src="/Portfolio/images/weather-dash-image.png"
-              alt="weather dashboard image"
-            />
-          </a>
-            <!-- project text -->
-          <div class="project-information">
-            <h3>Weather Dashboard API</h3>
-            <p class="subtext">
-              One of the most notable projetcs I have completed was to create a weather dashboard utilizing a live weather API.
-            </p>
-            <hr />
-            <!-- project links -->
-            <div class="project-links">
-              <p class="subtext">
-                <a
-                  class="project-link"
-                  target="blank"
-                  href="https://dyl4n1997.github.io/Weather-API-Implementation/"
-                  >Deploy Here</a
-                >
-              </p>
-              <p class="subtext">
-                <a
-                  class="project-link"
-                  target="blank"
-                  href="https://github.com/DYL4N1997/Weather-API-Implementation"
-                >
-                  View Source Code</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-         <!-- project card -->
-        <div class="project-card grow">
-          <a
-            target="blank"
-            href="https://dyl4n1997.github.io/Legendary-QuizGame"
-          >
-            <img
-              class="project-image"
-              src="/Portfolio/images/quiz-image.png"
-              alt="Creative_Labs_Screenshot"
-            />
-          </a>
-          <div class="project-information">
-            <h3>Code Quiz App</h3>
-            <p class="subtext">
-              A code quiz built on javascript logic.
-            </p>
-            <hr />
-            <div class="project-links">
-              <p class="subtext">
-                <a
-                  class="project-link"
-                  target="blank"
-                  href="https://dyl4n1997.github.io/Legendary-QuizGame"
-                  >Deploy Here</a
-                >
-              </p>
-              <p class="subtext">
-                <a
-                  class="project-link"
-                  target="blank"
-                  href="https://github.com/DYL4N1997/Legendary-QuizGame"
-                >
-                  View Source Code</a
-                >
-              </p>
-            </div>
-          </div>
-        </div> 
 
 
-</div>
+
 
 <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
