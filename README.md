@@ -4,7 +4,7 @@ I am not completing a full Readme as my next task is to complete a React portfol
 
 You can check out the full application here:
 
-ttps://dyl4n1997.github.io/Dylan-Metcalf-Portfoli0/ 
+https://dyl4n1997.github.io/Dylan-Metcalf-Portfoli0/ 
 
 
 Dylan
